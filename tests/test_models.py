@@ -1,4 +1,8 @@
 """Tests for statistics functions within the Model layer."""
+import pytest
+import numpy as np
+import numpy.testing as npt
+
 from inflammation.models import daily_max, daily_min
 ...
 @pytest.mark.parametrize(
